@@ -1,4 +1,5 @@
 #include "Empleado.h"
+#include "PediryValidar.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -21,19 +22,15 @@ void cargarEmpleado(eEmpleado lista[], int tam, eSector sector[], int ts)
     i = buscarLibre(lista, tam);
     if(i!=-1)
     {
-        printf("Ingrese legajo: ");
-        scanf("%d", &lista[i].legajo);
+        lista[i].legajo = devuelveInt("Ingrese el numero de legajo: ");
         printf("Ingrese nombre: ");
         fflush(stdin);
         gets(lista[i].nombre);
-        printf("Ingrese sexo: ");
-        fflush(stdin);
-        scanf("%c", &lista[i].sexo);
+        lista[i].sexo = devuelveChar("Ingrese el Sexo: ");
         printf("Elija el Sector del empleado: \n");
         mostrarSectores(lista, tam, sector, ts);
         scanf("%d", &lista[i].idSector);
-        printf("Ingrese la carga horaria del empleado: ");
-        scanf("%d", &lista[i].horas);
+        lista[i].horas = devuelveInt("Ingrese la carga horaria del empleado: ");
         sueloBrutoCalculo(lista, tam, sector, ts);
         lista[i].estado = OCUPADO;
 

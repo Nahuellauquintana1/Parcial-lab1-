@@ -31,3 +31,26 @@
 1556032117 c:\users\nahue\downloads\clase-1-y-2-master\empleado\empleado.h
 	<stdio.h>
 
+1556032117 source:c:\users\nahue\desktop\empleado\main.c
+	<stdlib.h>
+	"Empleado.h"
+
+1556032117 c:\users\nahue\desktop\empleado\empleado.h
+	<stdio.h>
+
+1557187113 source:c:\users\nahue\desktop\empleado\empleado.c
+	"Empleado.h"
+	"PediryValidar.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1557187135 c:\users\nahue\desktop\empleado\pediryvalidar.h
+
+1557187174 source:c:\users\nahue\desktop\empleado\pediryvalidar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"PediryValidar.h"
+

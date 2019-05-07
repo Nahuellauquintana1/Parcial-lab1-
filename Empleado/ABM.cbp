@@ -35,6 +35,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="Empleado.h" />
+		<Unit filename="PediryValidar.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PediryValidar.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
