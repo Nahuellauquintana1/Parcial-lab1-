@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1557249709 source:d:\nueva carpeta\quintana nahuel 1c parcial\main.c
+	<stdlib.h>
+	"peliculas.h"
+
+1557249760 d:\nueva carpeta\quintana nahuel 1c parcial\peliculas.h
+	<stdio.h>
+
+1557241840 source:d:\nueva carpeta\quintana nahuel 1c parcial\pediryvalidar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"PediryValidar.h"
+
+1557241840 d:\nueva carpeta\quintana nahuel 1c parcial\pediryvalidar.h
+
+1557249777 source:d:\nueva carpeta\quintana nahuel 1c parcial\peliculas.c
+	"peliculas.h"
+	"PediryValidar.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
